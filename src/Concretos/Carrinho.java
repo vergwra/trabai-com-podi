@@ -35,4 +35,14 @@ public class Carrinho {
             System.out.println(produto);
         }
     }
+
+    public ArrayList<Produto> getProdutos() {
+        return produtos;
+    }
+
+    public void setProdutos(ArrayList<Produto> produtos) {
+        this.produtos = produtos;
+    }
+
+
 }

@@ -1,5 +1,7 @@
-package Abstratos;
+package Exececoes;
 
-public class SephoraException {
-
+public class SephoraException extends Exception {
+    public SephoraException(String mensagem) {
+        super(mensagem);
+    }
 }

@@ -1,5 +1,7 @@
 package Abstratos;
 
+import Concretos.Avaliacao;
+
 public abstract class Produto {
     protected String nome;
     protected String marca;
@@ -87,6 +89,9 @@ public abstract class Produto {
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public void adicionarAvaliacao(Avaliacao avaliacao) {
     }
     
 }
