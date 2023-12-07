@@ -22,4 +22,10 @@ public class CartaoDeCredito extends Pagamento {
         return true;
     }
 
+
+    @Override
+    public boolean efetuarPagamento(Compra compra) {
+        return processarPagamento();
+    }
+
 }

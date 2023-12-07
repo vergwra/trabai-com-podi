@@ -16,5 +16,10 @@ public class Boleto extends Pagamento{
         super(valor, formaDePagamento);
         this.codigoDeBarras = codigoDeBarras;
     }
+
+    @Override
+    public boolean efetuarPagamento(Compra compra) {
+        return processarPagamento();
+    }
     
 }

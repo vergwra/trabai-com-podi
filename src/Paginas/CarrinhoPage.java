@@ -15,7 +15,7 @@ public class CarrinhoPage extends JFrame {
 
     private JLabel total;
 
-    public CarrinhoPage() {
+    public CarrinhoPage() { 
         setTitle("Sephora - Carrinho");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 300);
@@ -39,7 +39,8 @@ public class CarrinhoPage extends JFrame {
         add(btnFinalizarCompra, BorderLayout.SOUTH);
 
         btnFinalizarCompra.addActionListener(e -> {
-            // Implemente a lógica para ir para a página do carrinho
+            new CompraPage(Data.authedUsuario, Data.carrinho).setVisible(true);
+            dispose();
         });
     }
 }

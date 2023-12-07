@@ -1,6 +1,7 @@
 package Concretos;
 
 import java.sql.Date;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Scanner;
 
@@ -8,22 +9,27 @@ import Abstratos.Pagamento;
 import Abstratos.Produto;
 import Abstratos.Usuario;
 import Exececoes.PagamentoRecusadoException;
+import Interface.IPagamento;
 
 public class Compra {
     private Usuario comprador;
     private Carrinho carrinho;
     private double valorTotal;
     private Date dataCompra;
-    private Pagamento pagamento;
+    private IPagamento pagamento;
     
+    public double getValorTotal() {
+        return valorTotal;
+    }
+
     public Compra(Usuario comprador, Carrinho carrinho) {
         this.comprador = comprador;
         this.carrinho = carrinho;
-        this.dataCompra = new Date(0, 0, 0);
+        this.dataCompra = null;
         this.valorTotal = carrinho.calcularTotal();
     }
-    public void realizarPagamento(Pagamento pagamento) throws PagamentoRecusadoException {
-        boolean top = pagamento.processarPagamento();
+    public void realizarPagamento(IPagamento pagamento) throws PagamentoRecusadoException {
+        boolean top = pagamento.efetuarPagamento(this);
 
         if (top == false) {
             throw new PagamentoRecusadoException("Pagamento recusado para a compra de R$:" + valorTotal);
