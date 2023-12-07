@@ -3,20 +3,22 @@ package Paginas;
 import javax.swing.*;
 
 import Abstratos.Produto;
+import Abstratos.Usuario;
+import Concretos.Compra;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
 import java.util.List;
 
-public class CarrinhoPage extends JFrame {
+public class CompraPage extends JFrame {
     private JPanel painelProdutos;
     private JButton btnFinalizarCompra;
     private JButton btnVoltar;
 
     private JLabel total;
 
-    public CarrinhoPage() {
-        setTitle("Sephora - Carrinho");
+    public CompraPage(Usuario usuario, Compra compra) {
+        setTitle("Sephora - Compra");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 300);
 

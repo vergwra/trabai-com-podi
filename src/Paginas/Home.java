@@ -31,7 +31,7 @@ public class Home extends JFrame {
     }
 
     public Home() {
-        setTitle("Home");
+        setTitle("Sephora - Home");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(400, 300);
 

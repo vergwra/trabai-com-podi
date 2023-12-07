@@ -1,6 +1,9 @@
 package Paginas;
 
 import javax.swing.*;
+
+import Concretos.Cliente;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,7 +17,7 @@ public class Login extends JFrame {
         this.LoginSuccededPage = LoginSuccededPage;
 
         // Configurações básicas do JFrame
-        setTitle("Login");
+        setTitle("Sephora - Login");
         setSize(300, 150);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
@@ -54,10 +57,19 @@ public class Login extends JFrame {
         String senha = new String(senhaChars);
 
         // Verificar as credenciais (substitua isso com a lógica de verificação real)
-        if (usuario.equals("usuario") && senha.equals("senha")) {
-            JOptionPane.showMessageDialog(this, "Login bem-sucedido!");
+        if (usuario.equals("cliente") && senha.equals("senha")) {
             LoginSuccededPage.setVisible(true);
             dispose();
+
+            Cliente clienteLogado = new Cliente("cliente", "null", "070.932.803-66", 0);
+            JOptionPane.showMessageDialog(this, "Login bem-sucedido!");
+        } else if (usuario.equals("gerente") && senha.equals("senha")) {
+            LoginSuccededPage.setVisible(true);
+            dispose();
+
+            Cliente clienteLogado = new Cliente("gerente", "null", "070.932.803-66", 0);
+            
+            JOptionPane.showMessageDialog(this, "Login bem-sucedido!");
         } else {
             JOptionPane.showMessageDialog(this, "Usuário ou senha inválidos.", "Erro de Login", JOptionPane.ERROR_MESSAGE);
         }
