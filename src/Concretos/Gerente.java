@@ -12,4 +12,10 @@ public class Gerente extends Usuario {
     public void CancelaCompra() {
 
     }
+
+    @Override
+    public String toString() {
+        return " Gerente: \n nome: " + nome + "CPF: " + CPF;
+    }
+    
 }

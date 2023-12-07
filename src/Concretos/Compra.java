@@ -71,5 +71,10 @@ public class Compra {
             produto.adicionarAvaliacao(avaliacao);
         }
     }
+    @Override
+    public String toString() {
+        return ("  Detalhes da compra: \n cliente: " + comprador + "\n itens do carrinho: " + carrinho + "\n  valor da compra: " + valorTotal
+                + "\n data da compra: " + dataCompra + "\n forma de pagamento: " + pagamento + "");
+    }
 
 }

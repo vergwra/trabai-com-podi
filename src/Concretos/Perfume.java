@@ -2,12 +2,11 @@ package Concretos;
 
 import Abstratos.Produto;
 
-public class Maquiagem extends Produto {
+public class Perfume extends Produto{
+    
 
-    public Maquiagem(String nome, String marca, String modelo, int quantidadeDisponivel, double preco,
-            String detalhes) {
+    public Perfume(String nome, String marca, String modelo, int quantidadeDisponivel, double preco, String detalhes) {
         super(nome, marca, modelo, quantidadeDisponivel, preco, detalhes);
-        //TODO Auto-generated constructor stub
     }
 
     @Override
@@ -21,10 +20,9 @@ public class Maquiagem extends Produto {
         System.out.println(detalhes);
     }
 
+
     @Override
     public String toString() {
-        return " Maquiagem: \n marca: " + marca + "\n nome: " + nome + "\n modelo: " + modelo + "\n preço: " + preco + "\n detalhes: " + detalhes;
+        return " Perfume: \n marca: " + marca + "\n nome: " + nome + "\n modelo: " + modelo + "\n preço: " + preco + "\n detalhes: " + detalhes;
     }
-    
-    
 }

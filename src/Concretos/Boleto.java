@@ -16,5 +16,11 @@ public class Boleto extends Pagamento{
         super(valor, formaDePagamento);
         this.codigoDeBarras = codigoDeBarras;
     }
+
+    @Override
+    public String toString() {
+        return " Boleto: \n codigo de barras: " + codigoDeBarras;
+    }
+    
     
 }

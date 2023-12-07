@@ -24,4 +24,10 @@ public class Avaliacao {
     public int getClassificacao() {
         return classificacao;
     }
+
+    @Override
+    public String toString() {
+        return " Avaliacao: \n Usuário: " + usuario + "\n Avaliação: " + texto + "\n Classificacao: " + classificacao;
+    }
+    
 }

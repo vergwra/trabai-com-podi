@@ -44,5 +44,10 @@ public class Carrinho {
         this.produtos = produtos;
     }
 
+    @Override
+    public String toString() {
+        return "Carrinho: \n itens: " + produtos;
+    }
+    
 
 }

@@ -22,5 +22,10 @@ public class Cliente extends Usuario {
     public void setPontos(int pontos) {
         this.pontos = pontos;
     }
+
+    @Override
+    public String toString() {
+        return " Cliente: \n nome: " + nome + "\n CPF: " + CPF + " \n endereço: " + endereco +  "\n pontos:" + pontos  ;
+    }
     
 }

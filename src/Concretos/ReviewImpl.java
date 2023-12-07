@@ -33,6 +33,11 @@ public class ReviewImpl implements Review {
         return avaliacoesPorProduto.getOrDefault(product, new ArrayList<>());
     }
 
+    @Override
+    public String toString() {
+        return " Reviews: \n Avaliações por produto: " + avaliacoesPorProduto;
+    }
+    
 
 
 }

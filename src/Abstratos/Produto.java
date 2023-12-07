@@ -57,7 +57,7 @@ public abstract class Produto {
     public void setPreco(double preco) {
         this.preco = preco;}
     
-    public abstract double CalcularDesconto();
+    public abstract double CalcularDesconto(double desconto);
 
     public abstract void Detalhes();
 

@@ -22,4 +22,11 @@ public class CartaoDeCredito extends Pagamento {
         return true;
     }
 
+
+    @Override
+    public String toString() {
+        return " Cartão de Crédito: \n número do cartão: " + numeroCartao + "\n data de validade: " + dataValidade + "\n cvv: " + codigoSeguranca;
+    }
+    
+
 }
