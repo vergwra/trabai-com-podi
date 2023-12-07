@@ -1,6 +1,8 @@
 package Abstratos;
 
-public abstract class Pagamento {
+import Interface.IPagamento;
+
+public abstract class Pagamento implements IPagamento {
     protected double valor;
     protected String formaDePagamento;
     

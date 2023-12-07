@@ -21,6 +21,12 @@ public class Boleto extends Pagamento{
     public String toString() {
         return " Boleto: \n codigo de barras: " + codigoDeBarras;
     }
+
+    @Override
+    public boolean efetuarPagamento(Compra compra) {
+        return processarPagamento();
+    }
+    
     
     
 }

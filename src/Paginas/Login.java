@@ -3,6 +3,7 @@ package Paginas;
 import javax.swing.*;
 
 import Concretos.Cliente;
+import Concretos.Gerente;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -62,14 +63,15 @@ public class Login extends JFrame {
             dispose();
 
             Cliente clienteLogado = new Cliente("cliente", "null", "070.932.803-66", 0);
-            JOptionPane.showMessageDialog(this, "Login bem-sucedido!");
+            Data.SetAuthedUser(clienteLogado);
+            JOptionPane.showMessageDialog(this, "Login bem-sucedido!", "Logado como CLIENTE", JOptionPane.OK_OPTION);
         } else if (usuario.equals("gerente") && senha.equals("senha")) {
             LoginSuccededPage.setVisible(true);
             dispose();
 
-            Cliente clienteLogado = new Cliente("gerente", "null", "070.932.803-66", 0);
-            
-            JOptionPane.showMessageDialog(this, "Login bem-sucedido!");
+            Gerente gerenteLogado = new Gerente("gerente", "null", "070.932.803-66");
+            Data.SetAuthedUser(gerenteLogado);
+            JOptionPane.showMessageDialog(this, "Login bem-sucedido!", "Logado como GERENTE", JOptionPane.OK_OPTION);
         } else {
             JOptionPane.showMessageDialog(this, "Usuário ou senha inválidos.", "Erro de Login", JOptionPane.ERROR_MESSAGE);
         }

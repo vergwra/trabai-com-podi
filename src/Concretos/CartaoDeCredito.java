@@ -27,6 +27,9 @@ public class CartaoDeCredito extends Pagamento {
     public String toString() {
         return " Cartão de Crédito: \n número do cartão: " + numeroCartao + "\n data de validade: " + dataValidade + "\n cvv: " + codigoSeguranca;
     }
-    
+    @Override
+    public boolean efetuarPagamento(Compra compra) {
+        return processarPagamento();
+    }
 
 }

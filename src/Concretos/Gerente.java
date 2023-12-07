@@ -1,6 +1,8 @@
 package Concretos;
 
+import Abstratos.Produto;
 import Abstratos.Usuario;
+import Interface.Promocao;
 
 public class Gerente extends Usuario {
 
@@ -9,8 +11,16 @@ public class Gerente extends Usuario {
         //TODO Auto-generated constructor stub
     }
 
-    public void CancelaCompra() {
+    public void CancelarCompra(Compra compra) {
+        //compra.cancelar();
+    }
 
+    public void BanirUsuario(Usuario usuario) {
+        // usuario.bannedAt = new DateTime();
+    }
+
+    public void AplicarPromocao(Promocao promocao, Produto produto, String code) {
+        promocao.aplicarPromocao(produto, code);
     }
 
     @Override
