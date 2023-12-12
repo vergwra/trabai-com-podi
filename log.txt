@@ -4,3 +4,52 @@ Compra realizada: Concretos.Compra@ab3b5cb
 Compra realizada: Concretos.Compra@ab3b5cb
 Compra realizada: Concretos.Compra@4cedce61
 Compra realizada: Concretos.Compra@7042b303
+Compra realizada:   Detalhes da compra: 
+ 
+ cliente:  Cliente: 
+ nome: cliente
+ CPF: 070.932.803-66 
+ endereï¿½o: null
+ pontos:0
+ itens do carrinho: Carrinho: 
+ itens: [ Maquiagem: 
+ marca: DIOR
+ nome: CORRETIVO LIQUIDO
+ modelo: FOREVER SKIN CONCEALER
+ preï¿½o: 285.0
+ detalhes: Em uma ï¿½nica passada, este corretivo multiuso de alta cobertura com textura cremosa, esconde olheiras, vermelhidï¿½o localizada, manchas e imperfeiï¿½ï¿½es para uma correï¿½ï¿½o impecï¿½vel e disfarce de olheiras, sem transferï¿½ncia. De manhï¿½ ï¿½ noite, alisa e realï¿½a a pele, sem marcar as linhas do rosto. Ele resiste em todas as condiï¿½ï¿½es de calor e umidade.,  Maquiagem: 
+ marca: KYLIE COSMETICS
+ nome: Mï¿½SCARA DE Cï¿½LIOS
+ modelo: KYLASH
+ preï¿½o: 149.9
+ detalhes: Se vocï¿½ estï¿½ em busca do segredo para cï¿½lios volumosos, alongados e cheios de personalidade, entï¿½o a Mï¿½scara de Cï¿½lios Kylie Cosmetics Kylash, serï¿½ sua aliada definitiva para um olhar irresistï¿½vel e marcante.]
+  valor da compra: 434.9
+ data da compra: null
+ forma de pagamento:  Cartï¿½o de Crï¿½dito: 
+ nï¿½mero do cartï¿½o: miua
+ data de validade: miau
+ cvv: ms
+Compra realizada:   Detalhes da compra: 
+ cliente:  Cliente: 
+ nome: cliente
+ CPF: 070.932.803-66 
+ endereço: null
+ pontos:0
+ itens do carrinho: Carrinho: 
+ itens: [ Maquiagem: 
+ marca:  LAURA MERCIER
+ nome: PÓ TRANSLUCIDO
+ modelo: TRANSLUCENT LOOSE SETTING POWDER
+ preço: 259.9
+ detalhes: O icônico e best seller produto de Laura Mercier, vencedor de inúmeros prêmios e número 1 nos Estados Unidos* e também no Brasil**, é o seu pó essencial para selar a maquiagem, controlando a oleosidade e deixando um efeito de seda mate suave, dissimulando as linhas finas e imperfeições e sem adicionar cor à maquiagem aplicada anteriormente.,  Maquiagem: 
+ marca: NARS
+ nome: BASE
+ modelo: LIGHT REFLECTING
+ preço: 339.9
+ detalhes: A base NARS atua como maquiagem e skincare, desfocando instantaneamente as imperfeições, suavizando a aparência da pele e dos poros texturizados, além de ajuda a camuflar tom desigual, pontos escuros e vermelhidão.]
+  valor da compra: 599.8
+ data da compra: null
+ forma de pagamento:  Cartão de Crédito: 
+ número do cartão: q2312414
+ data de validade: 424
+ cvv: 23141
