@@ -4,3 +4,24 @@ Compra realizada: Concretos.Compra@ab3b5cb
 Compra realizada: Concretos.Compra@ab3b5cb
 Compra realizada: Concretos.Compra@4cedce61
 Compra realizada: Concretos.Compra@7042b303
+Compra realizada:   Detalhes da compra: 
+ cliente:  Cliente: 
+ nome: cliente
+ CPF: 070.932.803-66 
+ endereço: null
+ pontos:0
+ itens do carrinho: Carrinho: 
+ itens: [ Maquiagem: 
+ marca: Rare Beauty
+ nome: BLUSH LIQUIDO
+ modelo: Soft Pinch
+ preço: 159.9
+ detalhes: Um blush líquido leve e de longa duração que se espalha e cria lindas camadas para um rubor suave e saudável.,  Maquiagem: 
+ marca: Rare Beauty
+ nome: BLUSH LIQUIDO
+ modelo: Soft Pinch
+ preço: 159.9
+ detalhes: Um blush líquido leve e de longa duração que se espalha e cria lindas camadas para um rubor suave e saudável.]
+  valor da compra: 319.8
+ data da compra: null
+ forma de pagamento: Pagamento no valor de=319.8
