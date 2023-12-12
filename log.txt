@@ -5,6 +5,55 @@ Compra realizada: Concretos.Compra@ab3b5cb
 Compra realizada: Concretos.Compra@4cedce61
 Compra realizada: Concretos.Compra@7042b303
 Compra realizada:   Detalhes da compra: 
+ 
+ cliente:  Cliente: 
+ nome: cliente
+ CPF: 070.932.803-66 
+ endere�o: null
+ pontos:0
+ itens do carrinho: Carrinho: 
+ itens: [ Maquiagem: 
+ marca: DIOR
+ nome: CORRETIVO LIQUIDO
+ modelo: FOREVER SKIN CONCEALER
+ pre�o: 285.0
+ detalhes: Em uma �nica passada, este corretivo multiuso de alta cobertura com textura cremosa, esconde olheiras, vermelhid�o localizada, manchas e imperfei��es para uma corre��o impec�vel e disfarce de olheiras, sem transfer�ncia. De manh� � noite, alisa e real�a a pele, sem marcar as linhas do rosto. Ele resiste em todas as condi��es de calor e umidade.,  Maquiagem: 
+ marca: KYLIE COSMETICS
+ nome: M�SCARA DE C�LIOS
+ modelo: KYLASH
+ pre�o: 149.9
+ detalhes: Se voc� est� em busca do segredo para c�lios volumosos, alongados e cheios de personalidade, ent�o a M�scara de C�lios Kylie Cosmetics Kylash, ser� sua aliada definitiva para um olhar irresist�vel e marcante.]
+  valor da compra: 434.9
+ data da compra: null
+ forma de pagamento:  Cart�o de Cr�dito: 
+ n�mero do cart�o: miua
+ data de validade: miau
+ cvv: ms
+Compra realizada:   Detalhes da compra: 
+ cliente:  Cliente: 
+ nome: cliente
+ CPF: 070.932.803-66 
+ endere�o: null
+ pontos:0
+ itens do carrinho: Carrinho: 
+ itens: [ Maquiagem: 
+ marca:  LAURA MERCIER
+ nome: P� TRANSLUCIDO
+ modelo: TRANSLUCENT LOOSE SETTING POWDER
+ pre�o: 259.9
+ detalhes: O ic�nico e best seller produto de Laura Mercier, vencedor de in�meros pr�mios e n�mero 1 nos Estados Unidos* e tamb�m no Brasil**, � o seu p� essencial para selar a maquiagem, controlando a oleosidade e deixando um efeito de seda mate suave, dissimulando as linhas finas e imperfei��es e sem adicionar cor � maquiagem aplicada anteriormente.,  Maquiagem: 
+ marca: NARS
+ nome: BASE
+ modelo: LIGHT REFLECTING
+ pre�o: 339.9
+ detalhes: A base NARS atua como maquiagem e skincare, desfocando instantaneamente as imperfei��es, suavizando a apar�ncia da pele e dos poros texturizados, al�m de ajuda a camuflar tom desigual, pontos escuros e vermelhid�o.]
+  valor da compra: 599.8
+ data da compra: null
+ forma de pagamento:  Cart�o de Cr�dito: 
+ n�mero do cart�o: q2312414
+ data de validade: 424
+ cvv: 23141
+Compra realizada:   Detalhes da compra: 
  cliente:  Cliente: 
  nome: cliente
  CPF: 070.932.803-66 

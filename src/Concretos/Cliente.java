@@ -10,11 +10,6 @@ public class Cliente extends Usuario {
         this.pontos = pontos;
         //TODO Auto-generated constructor stub
     }
-    
-    public void Wishlist() {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'Wishlist'");
-    }
 
     public int getPontos() {
         return pontos;
@@ -26,6 +21,12 @@ public class Cliente extends Usuario {
     @Override
     public String toString() {
         return " Cliente: \n nome: " + nome + "\n CPF: " + CPF + " \n endereço: " + endereco +  "\n pontos:" + pontos  ;
+    }
+
+    @Override
+    public void VisualizarPerfil() {
+        System.out.println("Você é Cliente");
+        System.out.println("nome:" + nome +"\n CPF"+ CPF);
     }
     
 }

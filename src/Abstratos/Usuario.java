@@ -30,5 +30,6 @@ public abstract class Usuario {
     public void setCPF(String cPF) {
         CPF = cPF;
     }
+    public abstract void VisualizarPerfil();
     
 }

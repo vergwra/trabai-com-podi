@@ -5,6 +5,7 @@ import Abstratos.Usuario;
 import Interface.Promocao;
 
 public class Gerente extends Usuario {
+    
 
     public Gerente(String nome, String endereco, String cPFString) {
         super(nome, endereco, cPFString);
@@ -26,6 +27,12 @@ public class Gerente extends Usuario {
     @Override
     public String toString() {
         return " Gerente: \n nome: " + nome + "CPF: " + CPF;
+    }
+
+    @Override
+    public void VisualizarPerfil() {
+        System.out.println("Você é gerente");
+        System.out.println("nome:" + nome +"\n CPF"+ CPF);
     }
     
 }

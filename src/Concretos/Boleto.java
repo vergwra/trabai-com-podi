@@ -5,7 +5,6 @@ import Abstratos.Pagamento;
 public class Boleto extends Pagamento{
     protected String codigoDeBarras;
 
-
     public boolean processarPagamento(){
         System.out.println("Processando pagamento com boleto...");
         System.out.println("Boleto gerado: " + codigoDeBarras);
